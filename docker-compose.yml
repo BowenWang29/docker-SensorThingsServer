@@ -6,7 +6,7 @@ services:
         context: .
         dockerfile: Dockerfile
         args:
-            GITHASH: 486ca885e5f7fd308eef440a3508f2f6dc534095
+            GITHASH: 038a3cee0da501cc1aeb37f2dd8e11f4ca663f
     environment:
         - persistence_persistenceManagerImplementationClass=de.fraunhofer.iosb.ilt.sta.persistence.postgres.stringid.PostgresPersistenceManagerString
         - persistence_idGenerationMode=ServerAndClientGenerated
