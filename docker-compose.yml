@@ -25,7 +25,9 @@ services:
     ports:
         - 5432:5432
     volumes:
-      - postgis_volume:/var/lib/postgresql/data
+      - postgis_data_volume:/var/lib/postgresql/data
+      - postgis_backup_volume:/var/lib/postgresql/backup
 
 volumes:
-    postgis_volume:
+    postgis_data_volume:
+    postgis_backup_volume:
