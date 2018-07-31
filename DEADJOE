@@ -1,0 +1,15 @@
+
+*** These modified files were found in JOE when it aborted on Fri Jul  6 18:56:12 2018
+*** JOE was aborted by UNIX signal 15
+
+*** File '* Build Log *'
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+
+*** File '(Unnamed)'
+/root/.gitconfig
+* Build Log *
