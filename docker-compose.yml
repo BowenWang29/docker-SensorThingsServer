@@ -19,7 +19,11 @@ services:
       - database
 
   database:
-    image: mdillon/postgis:latest
+    build:
+      #image: mdillon/postgis:latest
+      context: ../postgis_wale
+      dockerfile: Dockerfile
+      #image: mdillon/postgis:latest
     restart: unless-stopped
     environment:
       - POSTGRES_DB=sensorthings
